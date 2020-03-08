@@ -16,7 +16,7 @@ class Dog {
   }
   
   function speak() {
-    return `${this.name} says meow!`
+    return `${this.name} says woof!`
   }
 }
 
@@ -24,5 +24,10 @@ class Bird {
   constructor(name, sex) {
     this.name = name;
     this.sex = sex;
-  }  
+  }
+  
+  function speak() {
+    if (this.sex === "male")
+    return `${this.name} says meow!`
+  }
 }
