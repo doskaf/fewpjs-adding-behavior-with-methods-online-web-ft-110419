@@ -3,6 +3,10 @@ class Cat {
     this.name = name;
     this.sex = sex;
   }
+  
+  function speak() {
+    return `${this.name} says meow!`
+  }
 }
 
 class Dog {
